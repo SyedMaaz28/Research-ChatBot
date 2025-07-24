@@ -43,11 +43,14 @@ A powerful Research Assistant chatbot built with **Google Gemini (Pro & Embeddin
 
 3. **Install dependencies**
 
-   ```pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 4. **Create a .env file**
 
-   ```GOOGLE_API_KEY=your_gemini_api_key
+   ```bash
+   GOOGLE_API_KEY=your_gemini_api_key
 
 5. **Run the app**
-   ```streamlit run main.py
+   ```bash
+   streamlit run main.py
