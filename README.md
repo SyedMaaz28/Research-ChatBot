@@ -2,7 +2,7 @@
 
 A powerful Research Assistant chatbot built with **Google Gemini (Pro & Embeddings)**, **LangChain**, **FAISS**, and **Streamlit**. This tool extracts, processes, and answers queries based on information scraped from any public URLs.
 
-![Screenshot]("https://github.com/SyedMaaz28/Research-ChatBot/blob/main/Chatbot.png")
+![Screenshot](https://github.com/SyedMaaz28/Research-ChatBot/blob/main/Chatbot.png)
 
 ---
 
@@ -38,16 +38,16 @@ A powerful Research Assistant chatbot built with **Google Gemini (Pro & Embeddin
 
 2. **Create a virtual environment**
 
-   python3 -m venv venv
+   ```python3 -m venv venv
    source venv/bin/activate  # or venv\Scripts\activate on Windows
 
 3. **Install dependencies**
 
-   pip install -r requirements.txt
+   ```pip install -r requirements.txt
 
 4. **Create a .env file**
 
-   GOOGLE_API_KEY=your_gemini_api_key
+   ```GOOGLE_API_KEY=your_gemini_api_key
 
 5. **Run the app**
-   streamlit run main.py
+   ```streamlit run main.py
