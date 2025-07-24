@@ -1,0 +1,6 @@
+# Agenda for Our Project:
+
+1 - Using "TextLoader / UnstructuredURLLoader" Classes for Document or text Reading.
+2 - Because of Token Size limit we are using Classes like "RecursiveCharacterTextSplitter" to Split the Sentences.
+3 - Converting Tokens into Embeddings (OpenAI , HuggingFace , Word2Vec) etc.
+4 - For Storing Vectors into DB we are using FAISS index for Semantic Search.
